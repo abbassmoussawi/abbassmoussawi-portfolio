@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 .intro-content {
-    width: 14rem;
+    width: 11rem;
     font-family: var(--sans);
     font-size: 13px;
     font-weight: bolder;
@@ -141,7 +141,7 @@ h2 {
 }
 
 .intro-img {
-    width: 9rem;
+    width: 7rem;
     height: 17rem;
 }
 /*footer*/
