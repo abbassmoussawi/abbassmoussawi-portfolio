@@ -246,14 +246,7 @@ figure {
     border-radius: 5px;
 }
 
-.video {
-    margin: 0 0 0.5rem 0;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    border: 2px solid rgb(107, 103, 103);
-    border-radius: 5px;
-}
+
 
 .figures-container h1 {
     background-color: #ad989c;
