@@ -41,9 +41,7 @@ header {
     background-color: rgb(88 183 172);
     padding: 1rem;
 }
-  video {
-          width: 25rem;
-    }
+
 nav ul {
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -248,7 +246,14 @@ figure {
     border-radius: 5px;
 }
 
-
+.video {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(107, 103, 103);
+    border-radius: 5px;
+}
 
 .figures-container h1 {
     background-color: #ad989c;
@@ -340,7 +345,10 @@ figcaption a {
     figure img {
         object-position: 0;
     }
-  
+    .video{
+        width: 20rem;
+        height: 18rem;
+    }
 }
 
 @media (min-width:800px) {
