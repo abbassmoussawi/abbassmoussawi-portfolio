@@ -338,7 +338,7 @@ figcaption a {
     figure img {
         object-position: 0;
     }
-    video .figure{
+    video {
           width: 25rem;
     }
 }
