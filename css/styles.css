@@ -301,7 +301,7 @@ figcaption a {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 460px) {
 
     nav a {
         border-bottom: 2px solid #d8e6d8;
