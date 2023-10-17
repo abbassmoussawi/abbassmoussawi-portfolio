@@ -251,8 +251,7 @@ figure {
     padding: 0;
     overflow: hidden;
     position: relative;
-    border: 2px solid rgb(107, 103, 103);
-    border-radius: 5px;
+ 
         width: 4rem;
     height: 18rem;
 }
