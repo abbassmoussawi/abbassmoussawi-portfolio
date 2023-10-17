@@ -253,6 +253,8 @@ figure {
     position: relative;
     border: 2px solid rgb(107, 103, 103);
     border-radius: 5px;
+        width: 20rem;
+    height: 18rem;
 }
 
 .figures-container h1 {
