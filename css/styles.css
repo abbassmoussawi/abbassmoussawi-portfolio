@@ -253,8 +253,6 @@ figure {
     position: relative;
     border: 2px solid rgb(107, 103, 103);
     border-radius: 5px;
-        width: 20rem;
-    height: 18rem;
 }
 
 .figures-container h1 {
@@ -301,9 +299,11 @@ figcaption a {
     text-decoration: none;
     color: var(--color1);
 }
-
-
-@media (min-width: 500px) {
+.video{
+    width: 25rem;
+    height: 18rem;
+}
+@media (min-width: 550px) {
 
     nav a {
         border-bottom: 2px solid #d8e6d8;
@@ -349,7 +349,7 @@ figcaption a {
         object-position: 0;
     }
     .video{
-        width: 23rem;
+        width: 20rem;
         height: 18rem;
     }
 }
