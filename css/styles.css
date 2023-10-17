@@ -299,10 +299,7 @@ figcaption a {
     text-decoration: none;
     color: var(--color1);
 }
-.video{
-    width: 25rem;
-    height: 18rem;
-}
+
 
 @media (min-width: 550px) {
 
