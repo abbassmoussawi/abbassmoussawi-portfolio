@@ -345,9 +345,8 @@ figcaption a {
     figure img {
         object-position: 0;
     }
-    .video{
-        width: 6rem;
-        height: 18rem;
+    video .figure{
+          width: 25rem;
     }
 }
 
