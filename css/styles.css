@@ -144,6 +144,7 @@ h2 {
     width: 7rem;
     height: 17rem;
 }
+
 /*footer*/
 footer {
     max-width: 1200px;
@@ -198,29 +199,37 @@ footer {
     display: flex;
     flex-flow: column wrap;
 }
-.info-container h2{
+
+.info-container h2 {
     text-align: center;
     border-bottom: 1px solid black;
     padding-bottom: 1rem;
 }
 
-.info-container h3,h4,h5,h6,p{
+.info-container h3,
+h4,
+h5,
+h6,
+p {
     margin: 0.5rem;
     font-size: smaller;
     padding: 0;
 
 }
 
-.info-container li{
-font-size: smaller;
+.info-container li {
+    font-size: smaller;
 }
-.card{
+
+.card {
     border-bottom: 1px solid rgb(106, 249, 246);
     margin: 1rem;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
+
 /* projects */
 .figures-container {
     max-width: 1200px;
@@ -233,27 +242,41 @@ figure {
     padding: 0;
     overflow: hidden;
     position: relative;
-   border: 2px solid rgb(107, 103, 103);
-   border-radius: 5px;
+    border: 2px solid rgb(107, 103, 103);
+    border-radius: 5px;
 }
-.figures-container h1{
+
+.video {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(107, 103, 103);
+    border-radius: 5px;
+}
+
+.figures-container h1 {
     background-color: #ad989c;
     color: white;
     border-radius: 5px;
     padding: 1rem;
 }
-.figures-container ul{
+
+.figures-container ul {
     display: flex;
     flex-flow: row wrap;
 
 }
-.figures-container li{
+
+.figures-container li {
     list-style-type: none;
 }
-.title{
+
+.title {
     border-bottom: 3px solid #a5a9c7;
     border-radius: 3px;
 }
+
 figure img {
     margin-bottom: -4px;
     width: 100%;
@@ -276,8 +299,9 @@ figcaption a {
     text-decoration: none;
     color: var(--color1);
 }
+
 @media (min-width: 550px) {
-  
+
     nav a {
         border-bottom: 2px solid #d8e6d8;
         background-color: inherit;
@@ -317,13 +341,23 @@ figcaption a {
         width: 9rem;
         height: 19rem;
     }
+
     figure img {
         object-position: 0;
+    }
+    .video{
+        width: 20rem;
+        height: 18rem;
     }
 }
 
 @media (min-width:800px) {
-    .info-container h3,h4,h5,h6,p{
+
+    .info-container h3,
+    h4,
+    h5,
+    h6,
+    p {
         font-size: inherit;
     }
 
@@ -355,23 +389,33 @@ figcaption a {
         width: 21rem;
         height: 23rem;
     }
-    .figures-container ul{
+
+    .figures-container ul {
         gap: 2%;
     }
-    .figures-container ul li{
+
+    .figures-container ul li {
         flex-basis: 46%;
     }
-    figure{
+
+    figure {
         max-height: 662px;
     }
+
     figure img {
         margin-bottom: -4px;
         height: 27rem;
         object-fit: fill;
         object-position: 0 -15px;
-        }
-    figcaption{
+    }
+
+    figcaption {
         font-size: inherit;
     }
 
+    .video {
+        width: 515px;
+        height: 419px;
+    }
+   
 }
