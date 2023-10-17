@@ -41,7 +41,9 @@ header {
     background-color: rgb(88 183 172);
     padding: 1rem;
 }
-
+  video {
+          width: 25rem;
+    }
 nav ul {
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -338,9 +340,7 @@ figcaption a {
     figure img {
         object-position: 0;
     }
-    video {
-          width: 25rem;
-    }
+  
 }
 
 @media (min-width:800px) {
